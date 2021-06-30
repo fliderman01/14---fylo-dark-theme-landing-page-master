@@ -1,0 +1,60 @@
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+nav {
+    background-color: hsl(217, 28%, 15%);
+}
+main {
+    background-color: hsl(218, 28%, 13%);
+}
+header {
+    background-color: hsl(217, 28%, 15%);
+    background-image: url("/images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+aside {
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 0.4em;
+}
+aside:nth-of-type(1) {
+    background-image: url("/images/bg-quotes.png");
+    background-position: left top -2em;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+}
+footer {
+    background-color: hsl(216, 53%, 9%);
+}
+a{
+    color: hsl(176, 68%, 64%);
+}
+h1, h3, button, h4, nav {
+    font-family: 'Raleway', sans-serif;
+}
+button {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    border: none;
+    border-radius: 15em;
+    height: 5.7em;
+    width: 29em;
+}
+button:active {
+    margin: 1em 0 0 1em;
+}
+.button {
+    width: 33em;
+}

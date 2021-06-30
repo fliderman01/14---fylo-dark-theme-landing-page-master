@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+nav {
+  background-color: #1c2431;
+}
+
+main {
+  background-color: #181f2a;
+}
+
+header {
+  background-color: #1c2431;
+  background-image: url("/images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+aside {
+  background-color: #202a3c;
+  border-radius: 0.4em;
+}
+
+aside:nth-of-type(1) {
+  background-image: url("/images/bg-quotes.png");
+  background-position: left top -2em;
+  background-repeat: no-repeat;
+  margin-top: 2em;
+}
+
+footer {
+  background-color: #0b1523;
+}
+
+a {
+  color: #65e2d9;
+}
+
+h1, h3, button, h4, nav {
+  font-family: 'Raleway', sans-serif;
+}
+
+button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  color: white;
+  border: none;
+  border-radius: 15em;
+  height: 5.7em;
+  width: 29em;
+}
+
+button:active {
+  margin: 1em 0 0 1em;
+}
+
+.button {
+  width: 33em;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-image: url("/images/bg-curvy-desktop.svg");
+  }
+}
+/*# sourceMappingURL=style.css.map */
